@@ -1,0 +1,298 @@
+/* Bundled Products & Composited Products*/
+table.acr_product_details tr.bundled_item td.name,
+table.acr_product_details tr.composited_item td.name{
+    padding-left: 32px !important;
+}
+
+/* Help Section */
+.forminp-acr_button .button,
+.forminp-acr_button .description{
+    float: left;
+    clear: both;
+}
+
+/* Status Colors */
+.status{
+    cursor: default;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    line-height: normal;
+}
+
+.processing{
+    background: #006799;
+}
+
+.recovered, .email-sent{
+    background: #5cb85c;
+}
+
+.email-pending{ background: #f0ad4e }
+.not-recovered{
+    background: #5D5D5D;
+}
+
+.email-failed,
+.cancelled,
+.danger{
+    background: #d9534f;
+}
+
+li.not-recovered,
+li.processing{
+    background: none;
+}
+
+/* Table Style */
+table.table{
+    width: 100%;
+    border-spacing: 0px;
+}
+
+table.table thead tr th,
+table.table tfoot tr th{
+    width: 25%;
+    text-align: left;
+    border-color: #f8f8f8;
+    background: #f8f8f8;
+    padding: 8px;
+    font-size: 11px;
+    text-align: left;
+    color: #555;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table.table tbody tr td{
+    border-bottom: 1px dotted #ececec;
+    line-height: 26px;
+    vertical-align: middle;
+    padding: 8px;
+    text-align: left;
+    border-color: #fff;
+}
+
+.email-failed,
+.email-sent,
+.email-pending{
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+
+td.acr-cart-status.column-acr-cart-status{
+    vertical-align: middle;
+}
+
+/* Email Status */
+div#acr-cart-recovery-email-status-box div.inside{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Restore Link Box */
+#acr-cart-recovery-cart-restore-link input[type=text]{
+    width: 100%;
+}
+
+#acr-cart-recovery-cart-restore-link a.copyLink{
+    float: right;
+}
+
+/* Customer Details */
+#acr-cart-recovery-user-details-box .column{
+    width: 30%;
+    padding: 0 2% 0 0;
+    float: left;
+}
+
+#acr-cart-recovery-user-details-box.closed div.inside{
+    display: none;
+}
+
+#acr-cart-recovery-user-details-box div.inside{
+    display: flex;
+}
+
+#acr-cart-recovery-user-details-box div.inside h4{
+    color: #333;
+    margin: 1.33em 0 0;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.acr-cart-customer label,
+#acr-cart-recovery-user-details-box label{
+    display: block;
+    padding: 0 0 3px;
+    margin: 10px 0px 5px;
+    font-weight: bold;
+}
+
+.acr-cart-customer label{
+    display: inline;
+}
+
+/* Ordered Cart Details */
+#acr-cart-recovery-product-details-box .inside{
+    margin: 0px;
+    padding: 0px;
+}
+
+table.acr_product_details thead tr th{
+    background: #f8f8f8;
+    padding: 8px;
+    font-size: 11px;
+    text-align: left;
+    color: #555;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table.acr_product_details thead tr th.line_cost{
+    width: 10em;
+}
+
+table.acr_product_details thead tr th.item{
+    min-width: 200px;
+}
+
+table.acr_product_details tbody tr td.thumb{
+    width: 27px;
+}
+
+table.acr_product_details tbody tr td.thumb img{
+    padding: 1px;
+    margin: 0;
+    border: 1px solid #dfdfdf;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+}
+
+table.acr_product_details thead tr th.quantity,
+table.acr_product_details tbody tr td.quantity,
+table.acr_product_details thead tr th.line_cost,
+table.acr_product_details tbody tr td.line_cost{
+    text-align: center;
+}
+
+table.acr_product_details tbody tr td{
+    padding: 8px !important;
+    text-align: left;
+    line-height: 26px;
+    vertical-align: middle;
+    border-bottom: 1px dotted #ececec;
+}
+
+table.acr_product_details tbody tr td.name table.display_meta{
+    margin: .5em 0 0;
+}
+
+table.acr_product_details tbody tr td.name table.display_meta td{
+    border: 0;
+    line-height: 1.5em;
+}
+
+#acr-cart-recovery-product-details-box .acr-product-data-row{
+    border-bottom: 1px solid #DFDFDF;
+    padding: 12px;
+    background: #f8f8f8;
+    line-height: 2em;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+}
+
+#acr-cart-recovery-product-details-box .acr-product-totals-items{
+    float: left;
+    width: 100%;
+}
+
+#acr-cart-recovery-product-details-box .acr-product-totals-items table.wc-order-totals{
+    float: right;
+}
+
+#acr-cart-recovery-product-details-box .acr-product-totals-items table.wc-order-totals td{
+    font-size: 1em!important;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 1em!important;
+    text-align: center;
+    padding: 8px;
+    width: 7em;
+}
+
+#acr-cart-recovery-product-details-box .acr-product-data-row table.wc-order-totals td.total span.amount{
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+#acr-cart-recovery-product-details-box .acr-coupons{
+    float: left;
+    width: 100%;
+}
+
+#acr-cart-recovery-product-details-box table.coupons{
+    float: right;
+}
+
+#acr-cart-recovery-product-details-box table.coupons thead th{
+    width: 10em;
+    font-size: 11px;
+}
+
+#acr-cart-recovery-product-details-box table.coupons td{
+    text-align: center;
+}
+
+/*cart totals*/
+#acr-cart-recovery-product-details-box .acr-cart-totals{
+    position: relative;
+    float: none;
+    display: table;
+    width: 100%;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#acr-cart-recovery-product-details-box .acr-cart-totals table.totals{
+    float: right;
+    padding: 20px 35px;
+    width: 400px;
+}
+
+#acr-cart-recovery-product-details-box .acr-cart-totals table.totals th,
+#acr-cart-recovery-product-details-box .acr-cart-totals table.totals td {
+    padding: 4px 10px;
+    text-align: left;
+    border: none;
+}
+
+#acr-cart-recovery-product-details-box .acr-cart-totals table.totals h2{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#acr-cart-recovery-product-details-box .acr-cart-totals .woocommerce-remove-coupon{
+    display: none;
+}

@@ -1,0 +1,1053 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Cart Recovery\n"
+"POT-Creation-Date: 2017-02-16 08:33+0800\n"
+"PO-Revision-Date: 2016-07-08 14:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: Rymera Web Co <josh@rymera.com.au>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: advanced-cart-recovery.bootstrap.php:205
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: advanced-cart-recovery.bootstrap.php:207
+msgid "Activate this plugin"
+msgstr ""
+
+#: advanced-cart-recovery.bootstrap.php:207
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: advanced-cart-recovery.bootstrap.php:209
+#, php-format
+msgid ""
+"<br/>Unable to activate the plugin. Please ensure you have the <a href=\"%1$s"
+"\" target=\"_blank\">%2$s</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: advanced-cart-recovery.bootstrap.php:214
+msgid "<b>Advanced Cart Recovery</b> plugin missing dependency.<br/>"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:426
+msgid "The following fields have empty values."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:427
+msgid "Please enter the correct email format."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:428
+msgid "Email Successfully Added"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:429
+msgid "Failed To Save Email"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:430
+msgid "Email Successfully Updated"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:431
+msgid "Failed To Update Email"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:432
+msgid "Failed Retrieve Email Data"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:433
+msgid "Clicking OK will remove the email from the list"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:434
+msgid "No Emails Found"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:435
+msgid "Failed To Delete Email"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:436
+msgid "Email Deleted Successfully"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:437
+msgid "Field Email"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:459
+msgid "Please fill the form properly. <br/>Some fields have invalid values."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:460
+msgid "Schedule Successfully Added"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:461
+msgid "Failed To Save Schedule"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:462
+msgid "Schedule Successfully Updated"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:463
+msgid "Failed To Update Schedule"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:464
+msgid "Failed Retrieve Schedule Data"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:465
+msgid "Clicking OK will remove the schedule from the list"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:466
+msgid "No Schedules Found"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:467
+msgid "Failed To Delete Schedule"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:468
+msgid "Schedule Deleted Successfully"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:469
+msgid "Failed To View"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:470
+msgid "\"Subject\" field is empty."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:471
+msgid "\"Days After Abandoned\" field is empty."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:472
+msgid "\"Days After Abandoned\" only accepts positive value."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:473
+msgid "Duplicate \"Days After Abandoned\" value."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:474
+msgid "\"Content\" is empty."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:475
+msgid "\"Heading Text\" is empty."
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:495
+msgid "Previous"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:496
+msgid "Next"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:497
+msgid "Close"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:498
+msgid "Start Tour"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:590 includes/class-acr-settings.php:103
+msgid "Help"
+msgstr ""
+
+#: advanced-cart-recovery.plugin.php:591
+msgid "Settings"
+msgstr ""
+
+#: includes/class-acr-ajax.php:32
+msgid "Notice dismissed."
+msgstr ""
+
+#: includes/class-acr-ajax.php:37
+msgid "Unable to dismiss this notice."
+msgstr ""
+
+#: includes/class-acr-ajax.php:88
+msgid "Email added successfully"
+msgstr ""
+
+#: includes/class-acr-ajax.php:97
+#, php-format
+msgid "The email %1$s has already been blacklisted."
+msgstr ""
+
+#: includes/class-acr-ajax.php:140
+msgid "Successfully Deleted."
+msgstr ""
+
+#: includes/class-acr-ajax.php:150
+msgid "Email not found."
+msgstr ""
+
+#: includes/class-acr-ajax.php:200
+msgid "Successfully Added!"
+msgstr ""
+
+#: includes/class-acr-ajax.php:209
+msgid "Error viewing schedule. Schedule not found!"
+msgstr ""
+
+#: includes/class-acr-ajax.php:271
+msgid "Successfully Updated!"
+msgstr ""
+
+#: includes/class-acr-ajax.php:280
+msgid "Error updating schedule. Schedule not found!"
+msgstr ""
+
+#: includes/class-acr-ajax.php:369
+msgid ""
+"<em>Powered By <a href=\"https://marketingsuiteplugin.com/product/advanced-"
+"cart-recovery/?utm_source=ACR&utm_medium=Powered%20By&utm_campaign=ACR"
+"\">Advanced Cart Recovery - Marketing Suite</a></em>"
+msgstr ""
+
+#: includes/class-acr-ajax.php:405
+msgid "Email Sent!"
+msgstr ""
+
+#: includes/class-acr-ajax.php:429
+msgid "Email Failed!"
+msgstr ""
+
+#: includes/class-acr-cart-manager.php:38
+msgid "All Status"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:64
+#: includes/class-acr-cart-recovery.php:66
+#: includes/class-acr-cart-recovery.php:67
+#: includes/class-acr-cart-recovery.php:69
+#: includes/class-acr-cart-recovery.php:85
+msgid "Abandoned Carts"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:65
+msgid "Abandoned Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:68
+msgid "Parent Cart:"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:70
+msgid "Add New Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:71
+msgid "Add New"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:72
+msgid "New Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:73
+msgid "Edit Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:74
+msgid "Update Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:75
+msgid "View Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:76
+msgid "Search Cart"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:77
+msgid "No shopping carts have been abandoned yet."
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:78
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:84
+msgid "abandoned-carts"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:121
+msgid "Not Recovered"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:122
+#, php-format
+msgid "Not Recovered <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:130
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:131
+#, php-format
+msgid "Recovered <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:139 includes/class-acr-settings.php:68
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:140
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:160
+msgid "Cart ID"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:161
+msgid "Date Created"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:162
+msgid "Customer"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:163
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:164
+msgid "Coupons"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:165
+#: includes/class-acr-custom-meta-boxes.php:309
+msgid "Order Total"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:166
+msgid "Order #"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:167
+#: includes/class-acr-custom-meta-boxes.php:347
+#: includes/class-acr-custom-meta-boxes.php:355
+msgid "Status"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:218
+#: includes/class-acr-cart-recovery.php:223
+#: includes/class-acr-custom-meta-boxes.php:170
+#: includes/class-acr-custom-meta-boxes.php:175
+msgid "Customer: "
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:228
+#: includes/class-acr-cart-recovery.php:233
+#: includes/class-acr-custom-meta-boxes.php:180
+#: includes/class-acr-custom-meta-boxes.php:185
+msgid "Email: "
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:240
+#: includes/class-acr-cart-recovery.php:245
+#: includes/class-acr-custom-meta-boxes.php:192
+#: includes/class-acr-custom-meta-boxes.php:197
+msgid "Role: "
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:309
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:567
+msgid "Oops! Looks like the cart you were recovering no longer exists."
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:582
+msgid "Oops! This cart is not restorable."
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:675
+msgid "Thanks! Your cart was successfully restored."
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:734
+msgid ""
+"We found out that you have disabled wp_cron. Please ensure that you have "
+"enabled wp_cron so that <b>Advanced Cart Recovery</b> plugin will work "
+"properly. Kindly remove any defined DISABLE_WP_CRON constant or place this "
+"at the end of your wp-config.php file <code>define( \"DISABLE_WP_CRON\", "
+"false );</code></p>"
+msgstr ""
+
+#: includes/class-acr-cart-recovery.php:735
+msgid "Hide Notice"
+msgstr ""
+
+#: includes/class-acr-cron.php:29
+msgid "You are not allowed to run cron events."
+msgstr ""
+
+#: includes/class-acr-cron.php:290
+msgid "Successfully run email sender."
+msgstr ""
+
+#: includes/class-acr-cron.php:293
+msgid "Successfully run cancelled carts."
+msgstr ""
+
+#: includes/class-acr-cron.php:296
+msgid "All scheduled emails are removed successfully."
+msgstr ""
+
+#: includes/class-acr-cron.php:299
+msgid "All not recovered ( abandoned ) carts are removed successfully."
+msgstr ""
+
+#: includes/class-acr-cron.php:302
+msgid "Successfully run abandoned carts."
+msgstr ""
+
+#: includes/class-acr-cron.php:305
+msgid "Error! This action can't be completed, nothing to run."
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:64
+msgid "Restore Link"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:65
+msgid "User Details"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:66
+msgid "Ordered Items"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:67
+msgid "Email Status <small>(Abandoned on "
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:68
+msgid "Order Reference"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:69
+msgid "Cart Status"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:73
+msgid "Premium Add-on"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:103
+msgid "Shopping Cart URL"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:105
+msgid "Copy Link"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:117
+msgid "Copied text to clipboard: "
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:166
+msgid "General Details"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:204
+msgid "Billing Details"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:206
+#: includes/class-acr-custom-meta-boxes.php:232
+msgid "Address:"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:217
+msgid "Email:"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:224
+msgid "Phone:"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:230
+msgid "Shipping Details"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:272
+#: includes/class-acr-emails.php:150
+msgid "Item"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:273
+#: includes/class-acr-emails.php:151
+msgid "Cost"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:274
+#: includes/class-acr-emails.php:152
+msgid "Qty"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:275
+#: includes/class-acr-emails.php:153
+msgid "Total"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:291
+msgid "Cart Totals"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:294
+msgid "Cart Subtotal"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:344
+#: includes/class-acr-custom-meta-boxes.php:352
+msgid "Title"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:345
+#: includes/class-acr-custom-meta-boxes.php:353
+#: includes/class-acr-settings.php:684 includes/class-acr-settings.php:749
+#: includes/class-acr-settings.php:777 includes/class-acr-settings.php:786
+msgid "Days After Abandoned"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:346
+#: includes/class-acr-custom-meta-boxes.php:354
+msgid "Time Sent or Failed"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:406
+#, php-format
+msgid "( %s remaining )"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:482
+#, php-format
+msgid "Date Recovered: %s"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:487
+#, php-format
+msgid "Date Not Recovered: %s"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:492
+#, php-format
+msgid "Date Cancelled: %s"
+msgstr ""
+
+#: includes/class-acr-custom-meta-boxes.php:525
+#: includes/class-acr-settings.php:872
+msgid "Advanced Cart Recovery Premium"
+msgstr ""
+
+#: includes/class-acr-emails.php:29
+msgid ""
+"A formatted table of products that were in the order at the time of "
+"abandonment"
+msgstr ""
+
+#: includes/class-acr-emails.php:30
+msgid "Combination of the first & last name"
+msgstr ""
+
+#: includes/class-acr-emails.php:31
+msgid "First Name"
+msgstr ""
+
+#: includes/class-acr-emails.php:32
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-acr-emails.php:33
+msgid ""
+"Link to the WooCommerce cart page which has their order pre-filled (pinching "
+"functionality from Email Cart here)"
+msgstr ""
+
+#: includes/class-acr-emails.php:34
+msgid "The website's url"
+msgstr ""
+
+#: includes/class-acr-emails.php:35
+msgid "The website's name"
+msgstr ""
+
+#: includes/class-acr-emails.php:36
+msgid "Unsubscribe Link"
+msgstr ""
+
+#: includes/class-acr-emails.php:38
+msgid "We noticed you left before you could finish your order ..."
+msgstr ""
+
+#: includes/class-acr-emails.php:39
+msgid ""
+"<p>Hi {first_name}</p><p>Looks like you left our site before you could "
+"finish your order recently.</p><p>{product_list}</p><p>Would you like to "
+"complete it now?</p><p>Click this link to proceed: {cart_link}</p><p>Regards,"
+"</br>{site_name} - {site_url}</p><p>Stop receiving abandoned cart notices, "
+"click {unsubscribe}"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:37
+msgid ""
+"<h3>Welcome to Advanced Cart Recovery!</h3>\n"
+"                                <p>Would you like to go on a guided tour of "
+"the plugin? Takes less than 30 seconds.</p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:46
+msgid ""
+"<h3>Advanced Cart Recovery is a tool used to recover orders that are "
+"abandoned before the purchase was completed.</h3>\n"
+"                                <p>It can help you recover orders that were "
+"cancelled or left in pending payment (or any other status that is not "
+"desirable) by sending automated emails that encourage them to come back to "
+"finalise their purchase.</p>\n"
+"                                <p>The simple act of asking your customers "
+"to come back is often all that is needed to recover the order and add that "
+"revenue back to your bottom line.</p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:57
+msgid ""
+"<h3>This is the General settings area.</h3>\n"
+"                                    <p>There's a number of options here that "
+"change the way Advanced Cart Recovery behaves in relation to determining "
+"when an order is considered abandoned by the customer, how long to wait for "
+"a response to your campaign to get them back, and more.</p>\n"
+"                                    <p>Next we'll look at how to set the "
+"actual emails that go out.</p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:67
+msgid ""
+"<h3>This is the Email Schedules.</h3>\n"
+"                                    <p>From here you configure the emails "
+"that are used to encourage customers to come back to your store..</p>\n"
+"                                    <p>On the free version you can only have "
+"one email, but the Premium add-on give you the option of adding multiple "
+"emails to form a longer schedule.</p>\n"
+"                                    <p>Not everyone responds on the first "
+"try and sometimes it can be helpful to offer a coupon or other incentive "
+"when all other attempts to get them back have failed.</p>\n"
+"                                    <p>The emails you set here are sent out "
+"on a schedule based on the number of days after the order was abandoned by "
+"the customer.</p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:79
+#, php-format
+msgid ""
+"<h3>This concludes the tour. You are now ready to setup your settings and "
+"email schedules!</h3>\n"
+"                                         <p>Want to unlock all of the extra "
+"features? The Premium add-on is packed full of useful features and amazing "
+"reports so you can see how your abandoned cart recovery efforts are going.</"
+"p>\n"
+"                                         <p>Plus, we're adding new features "
+"all the time!</p>\n"
+"                                         <p><a href=\"%1$s\" target=\"_blank"
+"\" class=\"button button-primary\">Check out the Premium version now &rarr;</"
+"a></p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:91
+msgid ""
+"<h3>This is the list of all of the currently Abandoned Carts that are being "
+"recovered.</h3>\n"
+"                                <p>When an order in the defined statuses "
+"(eg. Cancelled or Pending Payment) are left that way for the period defined "
+"in the settings (default is 6 hours), they will be considered abandoned by "
+"the customer and an entry will be created here to track the order recovery "
+"efforts.</p>\n"
+"                                <p>You can drill down into particular "
+"abandoned carts here to get more details about the customer and the order.</"
+"p>"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:156
+msgid "Security Check Failed"
+msgstr ""
+
+#: includes/class-acr-guided-tour.php:163
+msgid "Invalid AJAX Call"
+msgstr ""
+
+#: includes/class-acr-settings.php:43
+msgid "Cart Recovery"
+msgstr ""
+
+#: includes/class-acr-settings.php:67
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-acr-settings.php:69
+msgid "On Hold"
+msgstr ""
+
+#: includes/class-acr-settings.php:70
+msgid "Failed"
+msgstr ""
+
+#: includes/class-acr-settings.php:76
+msgid "Completed"
+msgstr ""
+
+#: includes/class-acr-settings.php:77
+msgid "Processing"
+msgstr ""
+
+#: includes/class-acr-settings.php:100
+msgid "General"
+msgstr ""
+
+#: includes/class-acr-settings.php:101 includes/class-acr-settings.php:306
+msgid "Email Schedules"
+msgstr ""
+
+#: includes/class-acr-settings.php:102
+msgid "Blacklist Emails"
+msgstr ""
+
+#: includes/class-acr-settings.php:214
+msgid "General Options"
+msgstr ""
+
+#: includes/class-acr-settings.php:231
+#, php-format
+msgid ""
+"<b>Current Settings:</b> After <b>%1$s</b> hours if an Order is in [ %2$s ] "
+"it is considered abandoned."
+msgstr ""
+
+#: includes/class-acr-settings.php:236
+msgid "Cart Abandoned Cut-Off Time"
+msgstr ""
+
+#: includes/class-acr-settings.php:238
+msgid "Hour(s) after which an order considered abandoned."
+msgstr ""
+
+#: includes/class-acr-settings.php:239
+msgid "Default is 6 Hours."
+msgstr ""
+
+#: includes/class-acr-settings.php:249
+msgid "Abandoned Order Status"
+msgstr ""
+
+#: includes/class-acr-settings.php:251
+msgid ""
+"If an order ends up in one of the selected statuses and the customer doesn't "
+"make an order before the cut-off time, the order will be considered as "
+"abandoned."
+msgstr ""
+
+#: includes/class-acr-settings.php:252
+msgid ""
+"The list of order statuses that will be considered as abandoned carts. "
+"Default is Pending and Cancelled."
+msgstr ""
+
+#: includes/class-acr-settings.php:259
+msgid "Complete Order Status"
+msgstr ""
+
+#: includes/class-acr-settings.php:261
+msgid ""
+"If an order ends up in one of the selected statuses and the customer "
+"successfully makes an order, it should cancel all abandoned carts for that "
+"email address."
+msgstr ""
+
+#: includes/class-acr-settings.php:262
+msgid ""
+"The list of order statuses that will be considered as complete orders. "
+"Default is Completed."
+msgstr ""
+
+#: includes/class-acr-settings.php:269
+msgid "Cart Abandoned Forever Time"
+msgstr ""
+
+#: includes/class-acr-settings.php:270
+msgid ""
+"Number of days after the final email was sent that \"Not Recovered\" carts "
+"will be considered abandoned forever."
+msgstr ""
+
+#: includes/class-acr-settings.php:274
+msgid "Default is 7 Days."
+msgstr ""
+
+#: includes/class-acr-settings.php:278
+msgid "Allow Recovery With Different Email"
+msgstr ""
+
+#: includes/class-acr-settings.php:280
+msgid ""
+"Counts customers that recover the cart and use a different email during "
+"checkout."
+msgstr ""
+
+#: includes/class-acr-settings.php:281
+msgid ""
+"Abandoned carts normally can only be recovered with the same email but, when "
+"enabled, this setting will allow people to checkout using a different email "
+"and the corresponding abandoned cart record will be changed to recovered."
+msgstr ""
+
+#: includes/class-acr-settings.php:340
+msgid "Blacklist Options"
+msgstr ""
+
+#: includes/class-acr-settings.php:342
+msgid ""
+"A list of all email addressed that have opted out of abandoned cart "
+"communication."
+msgstr ""
+
+#: includes/class-acr-settings.php:349
+msgid "Insert the email address you want to add in the list."
+msgstr ""
+
+#: includes/class-acr-settings.php:375
+msgid "Help Options"
+msgstr ""
+
+#: includes/class-acr-settings.php:389
+msgid "Run Abandoned Cart"
+msgstr ""
+
+#: includes/class-acr-settings.php:391
+#, php-format
+msgid "This will run the %1$s hook."
+msgstr ""
+
+#: includes/class-acr-settings.php:397
+msgid "Run Email Sender"
+msgstr ""
+
+#: includes/class-acr-settings.php:399
+#, php-format
+msgid "This will send all scheduled cron emails under %1$s hook."
+msgstr ""
+
+#: includes/class-acr-settings.php:405
+msgid "Run Abandoned Forever"
+msgstr ""
+
+#: includes/class-acr-settings.php:407
+#, php-format
+msgid ""
+"This will make all not-recovered carts into cancelled under %1$s hook. <br/"
+">\n"
+"                                    ( note: %2$s hook is created after an "
+"email has succesfully sent to the customer and refreshes the time everytime "
+"there are multiple emails sent. <br/>In case the cart object is not turned "
+"to cancelld it maybe because no email has sent out yet. )"
+msgstr ""
+
+#: includes/class-acr-settings.php:414
+msgid "Clear All Emails"
+msgstr ""
+
+#: includes/class-acr-settings.php:416
+msgid "This will remove all scheduled cron emails."
+msgstr ""
+
+#: includes/class-acr-settings.php:422
+msgid "Clear All Abandoned Carts"
+msgstr ""
+
+#: includes/class-acr-settings.php:424
+msgid ""
+"This will delete all not recovered carts. ( note: cancelled and recovered "
+"ones stay put )"
+msgstr ""
+
+#: includes/class-acr-settings.php:430
+msgid "Clean up plugin options on un-installation"
+msgstr ""
+
+#: includes/class-acr-settings.php:432
+msgid ""
+"If checked, removes all plugin options when this plugin is uninstalled. "
+"Note: Also affect premium version."
+msgstr ""
+
+#: includes/class-acr-settings.php:466
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/class-acr-settings.php:469
+#, php-format
+msgid ""
+"Looking for documentation? Please see our growing <a href=\"%1$s\" target="
+"\"_blank\">Knowledge Base</a>"
+msgstr ""
+
+#: includes/class-acr-settings.php:497
+msgid "Manually Unsubscribe Email Address"
+msgstr ""
+
+#: includes/class-acr-settings.php:505 includes/class-acr-settings.php:956
+msgid "Add"
+msgstr ""
+
+#: includes/class-acr-settings.php:515 includes/class-acr-settings.php:523
+msgid "Email"
+msgstr ""
+
+#: includes/class-acr-settings.php:516 includes/class-acr-settings.php:524
+msgid "Date Added"
+msgstr ""
+
+#: includes/class-acr-settings.php:517 includes/class-acr-settings.php:525
+msgid "Reason"
+msgstr ""
+
+#: includes/class-acr-settings.php:561 includes/class-acr-settings.php:840
+msgid "No emails Found"
+msgstr ""
+
+#: includes/class-acr-settings.php:629 includes/class-acr-settings.php:636
+msgid "Run Now"
+msgstr ""
+
+#: includes/class-acr-settings.php:676 includes/class-acr-settings.php:745
+#: includes/class-acr-settings.php:775 includes/class-acr-settings.php:784
+msgid "Subject"
+msgstr ""
+
+#: includes/class-acr-settings.php:679
+msgid "The subject line of the email sent to the customer."
+msgstr ""
+
+#: includes/class-acr-settings.php:687
+msgid ""
+"The number of days this email should send after an Order has been considered "
+"abandoned. Only one email is allowed per day."
+msgstr ""
+
+#: includes/class-acr-settings.php:697
+msgid "Wrap emails with WooCommerce email header and footer?"
+msgstr ""
+
+#: includes/class-acr-settings.php:699
+msgid ""
+"If enabled, the emails will be wrapped with WooCommerce email header and "
+"footer."
+msgstr ""
+
+#: includes/class-acr-settings.php:700
+msgid ""
+"Wraps the email in the store's WooCommerce header and footer template for "
+"better conformity with your other store emails."
+msgstr ""
+
+#: includes/class-acr-settings.php:705 includes/class-acr-settings.php:758
+msgid "Heading Text"
+msgstr ""
+
+#: includes/class-acr-settings.php:708
+msgid "Used in the WooCommerce header as a heading text inside the email."
+msgstr ""
+
+#: includes/class-acr-settings.php:717
+msgid ""
+"This is the body of the email. Use the template tags in your template here "
+"and they will be filled with the real values when the email is sent."
+msgstr ""
+
+#: includes/class-acr-settings.php:754
+msgid "Wrap emails with WooCommerce header & Footer"
+msgstr ""
+
+#: includes/class-acr-settings.php:761 includes/class-acr-settings.php:778
+#: includes/class-acr-settings.php:787 includes/class-acr-settings.php:913
+msgid "Content"
+msgstr ""
+
+#: includes/class-acr-settings.php:776 includes/class-acr-settings.php:785
+msgid "Wrap with WC header & Footer"
+msgstr ""
+
+#: includes/class-acr-settings.php:779 includes/class-acr-settings.php:788
+msgid "Actions"
+msgstr ""
+
+#: includes/class-acr-settings.php:824
+msgid "Preview"
+msgstr ""
+
+#: includes/class-acr-settings.php:825
+msgid "Edit"
+msgstr ""
+
+#: includes/class-acr-settings.php:917
+msgid "You can use these template tags: "
+msgstr ""
+
+#: includes/class-acr-settings.php:957
+msgid "Update"
+msgstr ""
+
+#: includes/class-acr-settings.php:958
+msgid "Cancel"
+msgstr ""
+
+#: templates/acr-unsubscribe.php:21
+msgid "Unsubscribed!"
+msgstr ""
+
+#: templates/acr-unsubscribe.php:25
+msgid ""
+"Thank you. You have successfully been removed from any future communications "
+"about abandoned shopping carts."
+msgstr ""
+
+#: views/html-order-item.php:29
+msgid "SKU:"
+msgstr ""
+
+#: views/html-order-item.php:33
+msgid "Variation ID:"
+msgstr ""
+
+#: views/html-order-item.php:37
+msgid "No longer exists"
+msgstr ""

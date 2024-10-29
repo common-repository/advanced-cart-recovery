@@ -1,0 +1,7 @@
+.acr-tour-buttons {
+    display: block;
+    text-align: right;
+}
+.acr-tour-buttons > .button {
+    margin-left: 10px;
+}

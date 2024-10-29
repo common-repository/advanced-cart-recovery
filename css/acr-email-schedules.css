@@ -1,0 +1,135 @@
+/* Pop-up View */
+div#acr-view-data table tr td:first-child{
+    width: 250px;
+}
+.email-schedules {
+    width: 50% !important;
+    z-index: 9999;
+    border: 0 !important;
+}
+.email-schedules .ui-dialog-titlebar {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+.ui-widget-overlay {
+    background: #000 !important;
+    opacity: 0.5 !important;
+}
+#acr-view-data {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color: #333;
+}
+#acr-view-data dl dt {
+    margin-bottom: 5px;
+}
+#acr-view-data dl dd {
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #eee;
+}
+#acr-view-data dl dd:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+#acr-view-data dl dd p {
+    margin: 0 0 10px;
+}
+
+/* Forms */
+#acr-view-data{ display: none; }
+#acr-view-data tbody tr td{
+    padding: 15px 10px;
+}
+
+#acr-email-schedules-controls{
+    clear: both;
+}
+
+#acr-email-schedules-controls div.acr-button-controls .spinner{
+    float: none!important;
+    display: none;
+}
+
+#acr-email-schedules-controls div.acr-button-controls input.button{
+    margin-right: 10px;
+}
+
+#acr-email-schedules-controls table{
+    clear: both;
+}
+
+#acr-email-schedules-controls div.form-container input#acr_email_subject_field{
+    width: 65%;
+}
+
+#acr-show-form{
+    margin-bottom: 20px;
+    float: left;
+}
+
+/***** Email Schedules Table *****/
+#acr-email-schedules-controls .woocommerce-help-tip{
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+#acr-email-schedules-controls tbody tr td,
+#acr-email-schedules-controls tbody tr th{
+    position: relative;
+}
+
+#acr-email-schedules-table thead tr th,
+#acr-email-schedules-table tfoot tr th {
+    padding: 15px 10px;
+}
+
+#acr-email-schedules-table tbody tr.edited {
+    background-color: #fff2d8 !important;
+}
+
+#acr-email-schedules-table tbody tr td.controls .dashicons {
+    font-size: 24px;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+#acr-email-schedules-table tbody tr td.controls .view {
+    color: #0073AA;
+    margin-right: 15px;
+}
+
+#acr-email-schedules-table tbody tr td.controls .edit {
+    color: green;
+    margin-right: 15px;
+}
+
+#acr-email-schedules-table tbody tr td.controls .delete {
+    color: red;
+}
+
+#acr-email-schedules-table tr td:nth-child(2),
+#acr-email-schedules-table tr th:nth-child(2) {
+    width: 25%;
+}
+
+#acr-email-schedules-table tr th.controls {
+    width:150px;
+}
+#acr-email-schedules-table tbody tr td.controls {
+    text-align: right;
+}
+#acr-email-schedules-table.acrp-enabled tbody tr td.controls {
+    text-align: left;
+}
+
+#acr-email-schedules-table:not(.acrp-enabled) tbody tr td.controls .dashicons {
+    float: none !important;
+}
+#acr-email-schedules-table tbody tr.current-editing {
+    background: #baeed0;
+}
